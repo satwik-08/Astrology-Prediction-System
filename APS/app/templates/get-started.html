@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get Started With Astropredictor</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./Getstarted.css">
+
+
+    </head>
+    <body>
+
+        <div id="sectionHome">
+            <div class="vh-100 bg-container bg-img">
+                <div class="container py-5 h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12 col-lg-6 col-xl-6 justify-content-start">
+                            <div class="astro-card shadow-lg">
+                                <img class="astro-img" src="https://i.postimg.cc/G90325M6/image.png" alt="">
+                                <h1 class="main-heading mb-3">Astropredictor</h1>
+                                <p class="paragraph mb-3">Know your Horoscope by yourself</p>
+                                <button class="button mb-3" type="submit" onclick="display('sectionFavouritePlaces')"><a href="{% url 'signs' %}">Get Started</a></button>
+                              </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-xl-6 justify-content-center">
+                            <div class="img-card shadow-lg text-center">
+                                <img class="side-img" src="https://i.postimg.cc/P5wPwVFf/pexels-victoria-akvarel-6658693.jpg" alt="">
+                                <h1 class="img-heading">Welcome To ASTROPREDICTOR!</h1>
+                                <p class="img-para">Don't let someone else to tell your fate<br> Let us make it easy for you</p>
+
+                                 <style media="screen">
+  @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: url("https://i.postimg.cc/wTX05z43/pexels-rodnae-productions-6806707.jpg");
+    background-size: cover;
+  }
+.img-card{
+    background: #ffffff;
+    background-size: cover;
+    border-radius: 30px;
+}
+.img-heading{
+    font-family: "Roboto";
+    font-size: 35px;
+    margin: 20px;
+}
+.img-para{
+    font-family: "Roboto";
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.side-img{
+    height: 60vh;
+    width: 19vw;
+    border-radius: 30px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+.astro-img{
+    height: 40vh;
+    width: 20vw;
+    margin-bottom: 40px;
+}
+.astro-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin-bottom: 30px;
+  }
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: #eda711;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+  }
+
+.main-heading {
+    font-family: "Roboto";
+
+  }
+
+.paragraph {
+    font-family: "Roboto";
+  }
+
+      </style>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+          </div>
+    </body>
+
+</html>
